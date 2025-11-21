@@ -1,0 +1,127 @@
+{
+    "artifacts/smartfarm_default_app_id/public/data/client_scores": {
+        "123456": {
+            "Cliente": "Jeffrey Dahmer",
+            "Categoria_Evaluacion": "Granos",
+            "Sucursal": "Sinsacate",
+            "Perfil Tecnol\u00f3gico": "Tipo 1",
+            "**Item 1:** Organizaci\u00f3n y estandarizaci\u00f3n de lotes.": 5,
+            "**Item 2:** L\u00ednea de guiado.": 5,
+            "**Item 3:** Organizaci\u00f3n altamente conectada.": 10,
+            "**Item 4:** Uso de planificador de trabajo.": 10,
+            "**Item 5:** Uso de Operations Center Mobile.": 10,
+            "**Item 6:** JDLink.": 5,
+            "**Item 7:** Env\u00edo remoto. Mezcla de tanque.": 0,
+            "**Item 8:** % uso de autotrac en Tractor.": 10,
+            "**Item 9:** % uso autotrac Cosecha.": 10,
+            "**Item 10:** % uso autotrac Pulverizaci\u00f3n.": 0,
+            "**Item 11:** Uso de funcionalidades avanzadas.": 15,
+            "**Item 12:** Uso de tecnolog\u00edas integradas.": 10,
+            "**Item 13:** Se\u00f1al de correcci\u00f3n StarFire.": 5,
+            "**Item 14:** Paquete CSC.": 10,
+            "**Item 15:** Vinculaci\u00f3n de API.": 5,
+            "**Item 16:** JDLink en otra marca.": 15,
+            "ID_Cliente": "123456"
+        },
+        "987456": {
+            "Cliente": "Drago",
+            "Categoria_Evaluacion": "Ganader\u00eda",
+            "Sucursal": "Arroyito",
+            "Perfil Tecnol\u00f3gico": "Tipo 2",
+            "**Item 1:** Organizaci\u00f3n y estandarizaci\u00f3n de lotes.": 4,
+            "**Item 2:** Digitalizar capa de siembra y mapa de picado.": 4,
+            "**Item 3:** Uso de planificador de trabajo.": 16,
+            "**Item 4:** Equipo registrados en el Centro de Operaciones.": 3,
+            "**Item 5:** Operadores registrados en el Centro de Operaciones.": 1,
+            "**Item 6:** Productos registrados en el Centro de Operaciones.": 4,
+            "**Item 7:** Uso de Operations Center Mobile.": 0,
+            "**Item 8:** JDLink activado en m\u00e1quinas John Deere.": 4,
+            "**Item 9:** Planes de mantenimiento en tractores.": 0,
+            "**Item 10:** Mapeo de constituyentes.": 10,
+            "**Item 11:** Conectividad alimentaci\u00f3n.": 0,
+            "**Item 12:** Generaci\u00f3n de informes.": 6,
+            "**Item 13:** Paquete contratado con el concesionario (CSC).": 7,
+            "ID_Cliente": "987456"
+        },
+        "444555": {
+            "Cliente": "Malboro",
+            "Categoria_Evaluacion": "Cultivos de Alto Valor",
+            "Sucursal": "Pilar",
+            "Perfil Tecnol\u00f3gico": "Tipo 1",
+            "**Item 1:** Organizaci\u00f3n y estandarizaci\u00f3n de lotes.": 0,
+            "**Item 2:** Lineas de guiado.": 3,
+            "**Item 3:** Tener al menos una labor digitalizada.": 3,
+            "**Item 4:** Uso de planificador de trabajo para alguna operaci\u00f3n.": 0,
+            "**Item 5:** Uso del Operations Center Mobile.": 6,
+            "**Item 6:** JDLink activado en m\u00e1quinas John Deere.": 7,
+            "**Item 7:** % uso de autotrac en Tractor.": 0,
+            "**Item 8:** Implement Guidance.": 13,
+            "**Item 9:** Se\u00f1al de correcci\u00f3n StarFire.": 7,
+            "**Item 10:** Paquete contratado con el concesionario (CSC).": 6,
+            "**Item 11:** Equipos Registrados en Operations Center.": 2,
+            "**Item 12:** Operadores registrados en Operations Center.": 0,
+            "**Item 13:** Productos registrados en el Operations Center.": 4,
+            "**Item 14:** Configuraci\u00f3n de Alertas Personalizables.": 0,
+            "ID_Cliente": "444555"
+        },
+        "111111": {
+            "Cliente": "De Giorgio SA",
+            "Categoria_Evaluacion": "Granos",
+            "Sucursal": "Sinsacate",
+            "Perfil Tecnol\u00f3gico": "Tipo 1",
+            "**Item 1:** Organizaci\u00f3n y estandarizaci\u00f3n de lotes.": 3,
+            "**Item 2:** L\u00ednea de guiado.": 2,
+            "**Item 3:** Organizaci\u00f3n altamente conectada.": 5,
+            "**Item 4:** Uso de planificador de trabajo.": 10,
+            "**Item 5:** Uso de Operations Center Mobile.": 3,
+            "**Item 6:** JDLink.": 3,
+            "**Item 7:** Env\u00edo remoto. Mezcla de tanque.": 2,
+            "**Item 8:** % uso de autotrac en Tractor.": 9,
+            "**Item 9:** % uso autotrac Cosecha.": 2,
+            "**Item 10:** % uso autotrac Pulverizaci\u00f3n.": 5,
+            "**Item 11:** Uso de funcionalidades avanzadas.": 13,
+            "**Item 12:** Uso de tecnolog\u00edas integradas.": 3,
+            "**Item 13:** Se\u00f1al de correcci\u00f3n StarFire.": 4,
+            "**Item 14:** Paquete CSC.": 5,
+            "**Item 15:** Vinculaci\u00f3n de API.": 4,
+            "**Item 16:** JDLink en otra marca.": 4,
+            "ID_Cliente": "111111"
+        }
+    },
+    "artifacts/smartfarm_default_app_id/public/data/client_sales": {
+        "all_sales_records": {
+            "records": [
+                {
+                    "ID_Venta": "15c944d2-5089-4912-8928-8f9416ed1e29",
+                    "ID_Cliente": "225418",
+                    "Cliente": "Juan Ciervo",
+                    "Tipo de Venta": "Componente",
+                    "Estado de Venta": "Posible",
+                    "Detalle": "Modem M para el fiat ese viejo que tiene",
+                    "Monto": 600.0,
+                    "Fecha Registro": "2025-11-20 21:12"
+                },
+                {
+                    "ID_Venta": "a3ac74ad-f19b-482e-96f7-6a77da6e07be",
+                    "ID_Cliente": "090780",
+                    "Cliente": "Guss",
+                    "Tipo de Venta": "Servicio",
+                    "Estado de Venta": "Cerrado",
+                    "Detalle": "hello mt friend",
+                    "Monto": 3500.0,
+                    "Fecha Registro": "2025-11-20 22:37"
+                },
+                {
+                    "ID_Venta": "71abc45f-052c-4258-abcd-f97f24650f1d",
+                    "ID_Cliente": "111111",
+                    "Cliente": "De Giorgio SA",
+                    "Tipo de Venta": "Componente",
+                    "Estado de Venta": "Cerrado",
+                    "Detalle": "Quiere un modem M para chata",
+                    "Monto": 600.0,
+                    "Fecha Registro": "2025-11-21 15:14"
+                }
+            ]
+        }
+    }
+}
