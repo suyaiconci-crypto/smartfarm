@@ -343,7 +343,7 @@ with st.form("agronomy_project_form"):
         st.text_input(
             "3. Nombre de la Evaluación/Proyecto",
             value=st.session_state.nombre_default,
-            placeholder="Ej: Implementación AutoPath Campaña 2024",
+            placeholder="Ej: 'SF - Autopath' o 'Nombre Predeterminado del Protocolo'",
             key=base_widget_keys['nombre']
         )
 
@@ -351,7 +351,7 @@ with st.form("agronomy_project_form"):
         st.text_input(
             "4. Ubicación de la Evaluación (Lote/Campo)",
             value=st.session_state.ubicacion_default,
-            placeholder="Ej: Lote 5 'El Dorado'",
+            placeholder="Ej: SF - Juan Ciervo - Granja Illinois - Lote Prueba ",
             key=base_widget_keys['ubicacion']
         )
 
@@ -606,4 +606,5 @@ fig.update_traces(textposition='inside', textinfo='percent+label')
 fig.update_layout(showlegend=True, margin=dict(l=20, r=20, t=30, b=20))
 
 with col_chart:
+
     st.plotly_chart(fig, use_container_width=True)
