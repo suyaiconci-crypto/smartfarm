@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-import utilidades as util
+
 
 st.set_page_config(
     page_title="SmartFarm - Conci",
@@ -13,8 +13,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# Configurar Menu
-util.generarMenu()
 
 # =================================================================
 # 1. CONFIGURACIÓN DEL ENTORNO Y DATOS MAESTROS (Transformación)
@@ -361,4 +359,5 @@ recommendations = st.text_area(
 # necesitarías un botón de guardar y la lógica de Firebase/simulación correspondiente.
 # Por ahora, solo es un recuadro de texto.
 if recommendations:
+
     st.success("Recomendaciones listas para la discusión con el cliente.")
