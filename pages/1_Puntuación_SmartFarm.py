@@ -2,7 +2,7 @@ import json
 import os
 import pandas as pd
 import streamlit as st
-import utilidades as util
+
 
 st.set_page_config(
     page_title="SmartFarm - Conci",
@@ -10,8 +10,6 @@ st.set_page_config(
     page_icon="sf1.png",
     initial_sidebar_state="collapsed",
 )
-# Configurar Menu
-util.generarMenu()
 
 # =================================================================
 # REPLICACIÓN DE CONFIGURACIÓN DE LA APP PRINCIPAL
@@ -404,4 +402,5 @@ if data_from_db:
 else:
     st.info(
         "Aún no se ha registrado ningún cliente. Utiliza el formulario superior para empezar a cargar registros en las diferentes categorías."
+
     )
