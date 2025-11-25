@@ -2,11 +2,6 @@ import streamlit as st
 import json
 import os
 import uuid
-import utilidades as util
-
-# Configurar Menu
-util.generarMenu()
-
 
 # =================================================================
 # SIMULACIÓN DE LA CONEXIÓN A FIREBASE (Firestore)
@@ -90,4 +85,5 @@ st.markdown("---")
 # =================================================================
 # La tabla de datos de clientes no se incluye aquí ya que este es el archivo principal
 # pero las funcionalidades de las otras páginas dependen de la inicialización de la DB.
+
 # =================================================================
