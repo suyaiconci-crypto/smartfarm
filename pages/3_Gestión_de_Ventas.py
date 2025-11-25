@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 import plotly.express as px
 import uuid  # Para generar IDs únicos para cada venta
-import utilidades as util
+
 
 # Configuración inicial de la página Streamlit
 st.set_page_config(
@@ -15,8 +15,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# Configurar Menu
-util.generarMenu()
 
 # =================================================================
 # REPLICACIÓN DE CONFIGURACIÓN Y FUNCIONES DE BD
@@ -354,4 +352,5 @@ else:
                         labels={'Monto': 'Monto ($)'}
                     )
                     fig_bar.update_layout(yaxis={'tickprefix': '$'})
+
                     st.plotly_chart(fig_bar, use_container_width=True)
