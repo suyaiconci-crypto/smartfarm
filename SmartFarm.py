@@ -69,6 +69,7 @@ with col_text:
     2. **Resultados:** La tabla en esa misma página mostrará el seguimiento de todos los clientes de forma persistente.
     3. **Análisis de Puntuación:** Revisa el progreso de cada cliente y gestiona las recomendaciones para mejorar su puntaje.
     4. **Gestión de Ventas:** Carga prospectos y ventas generadas a partir de la táctica de SmartFarm, con edición y KPIs.
+    5. **Proyectos Agronomy Analyzer:** Carga y actualización de los proyectos de AA llevado a cabo con el cliente SmartFarm.
     """)
 
 with col_image:
@@ -87,3 +88,4 @@ st.markdown("---")
 # pero las funcionalidades de las otras páginas dependen de la inicialización de la DB.
 
 # =================================================================
+
